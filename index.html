@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="shortcut icon" href="img/svg/fav-2.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Berojgar Foods</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu-container">
+            <nav>
+                 <img src="img/logo.png" alt="logo" class="logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#" id="menu">Menu</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="desc">
+                    <div>
+                        <h1 class="h1 anime-h1">Meat, Eat and Enjoy the true taste</h1>
+                        <p class="p anime-p">Making a Reservation at Delecious Restaurant is easy and take just a couple of minuts</p>
+                    </div>
+                    <div>
+                        <a href="#" class="btn" >Our Menu</a>
+                        <a href="#book-table" class="book-2" >Book a Table</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="cover">
+                <!-- <a href="#" class="btn-2">Order Now</a> -->
+                <a href="#book-table" class="book" >Book a Table</a>
+        </div>
+    </div>
+    <main>
+
+        <div class="heading-wrpaer">
+            <h1 class="h1">Best way to eat healthy food</h1>
+            <p class="p">Making a reservation at Délicious restaurant is easy and takes just a
+                couple of minutes.</p>
+            </div>
+            <div class="food-card-wraper">
+                <div class="food-card">
+                    <img src="/img/svg/services1.svg" alt="">
+                    <h2><a href="#" class="card-link">healthy meals</a></h2>
+                    <p>Get healthy meals that satisfy your hunger and imporve your health.</p>
+                </div>
+                <div class="food-card">
+                    <img src="/img/svg/services2.svg" alt="">
+                    <h2><a href="#" class="card-link">fast food</a></h2>
+                    <p>Eat fast food for that you always crave.</p>
+                </div>
+                <div class="food-card">
+                    <img src="/img/svg/services3.svg" alt="">
+                    <h2><a href="#" class="card-link">delicious cofee</a></h2>
+                    <p>Get delicious coffee with great taste and boost your energy.</p>
+                </div>
+            </div>
+            <div class="pouler-dishesh-wraper">
+                <h1>Most populer dishesh</h1>
+                <p>Making a reservation at Délicious restaurant is easy and takes just a
+                    couple of minutes.</p>
+                <a href="#" class="btn btn-3">full menu</a>
+                <nav>
+                    <ul>
+                        <li><a href="#breakfast">brakfast</a></li>
+                        <li><a href="#breakfast">lunch</a></li>
+                        <li><a href="#breakfast">dinner</a></li>
+                        <li><a href="#breakfast">drinks</a></li>
+                        <li><a href="#breakfast">fastfood</a></li>
+                    </ul>
+                </nav>
+                <div id="breakfast">
+                    <div id="slider">
+                    <div class="dish">
+                        <div class="img-wraper">
+
+                            <img src="img/item-1.webp" alt="" class="dish-img">
+                        </div>
+                        <span class="rate">$20</span>
+                        <h2>Hamburger</h2>
+                        <p>Making a reservation at Délicious restaurant is easy and takes just a
+                            couple of minutes.</p>
+                        <a href="#breakfast" class="card-btn">order now</a>
+                    </div>
+                    <div class="dish">
+                        <div class="img-wraper">
+                            <img src="img/item-3.webp" alt="" class="dish-img">
+
+                        </div>
+                        <span class="rate">$20</span>
+                        <h2>Sandwitch</h2>
+                        <p>Making a reservation at Délicious restaurant is easy and takes just a
+                            couple of minutes.</p>
+                        <a href="#breakfast" class="card-btn">order now</a>
+                    </div>
+                    <div class="dish">
+                        <div class="img-wraper">
+                            <img src="img/item-2.jpg" alt="" class="dish-img">
+
+                        </div>
+                        <span class="rate">$20</span>
+                        <h2>Burger</h2>
+                        <p>Making a reservation at Délicious restaurant is easy and takes just a
+                            couple of minutes.</p>
+                        <a href="#brakfast" class="card-btn">order now</a>
+                    </div>
+                    <div class="dish">
+                        <div class="img-wraper">
+
+                            <img  src="img/item-1.webp" alt="" class="dish-img">
+                        </div>
+                            <span class="rate">$20</span>
+                       
+                        <h2>Pizza</h2>
+                        <p>Making a reservation at Délicious restaurant is easy and takes just a
+                            couple of minutes.</p>
+                        <a href="#breakfast" class="card-btn">order now</a>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+            <div class="book-table" id="book-table">
+                <div class="img">
+                    <img src="img/book-table-cover.webp" alt="" class="dish-img">
+                </div>
+                <div class="form-wraper">
+                    <h1 class="h1">Book a table</h1>
+                    <p class="p">Making a reservation at Délicious restaurant is easy and takes just a
+                        couple of minutes.</p>
+                    <form class = "form" action="">
+                        <input type="text" name="people" placeholder="Number of Guests" class="input-num">
+                        <input placeholder="Date" type="text" onfocus="(this.type = 'date')"  id="date">
+                        <select name="meal" id="meal">
+                            <option value="dinner">Dinner</option>
+                            <option value="breakfast">Breakfast</option>
+                            <option value="lunch">Lunch</option>
+                            <option value="coffee">Coffee</option>
+                            <option value="fastfood">Fastfood</option>
+                        </select>
+                        <input type="tel" placeholder="phone number" inputmode="tel" class="input-tel">
+                        <textarea name="masssage" id="massage" cols="" rows="5" placeholder="massage"></textarea>
+                        <input type="submit" class="btn submit" value="Sent Request">
+                    </form>
+                </div>
+            </div>
+        </main>
+        <div class="footer-image">
+            <img src="img/footer-cover-1.jpg" alt="">
+            <img src="img/footer-cover-2.webp" alt="">
+            <img src="img/footer-cover-3.webp" alt="">
+            <img src="img/footer-cover-4.jpg" alt="">
+            <span class="icon"><img src="img/svg/insta.svg" alt="">  @Berojgarfoods</span>
+        </div>
+        <footer class="footer">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="" class="logo logo-2">
+                <p class="p p-2">Land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning laboris nisi ufsit aliquip.</p>
+                <ul class="footer-ul">
+                    <li><a href="#"><img src="img/social-icon/icons8-twitter.gif" alt="twitter" class="s-icon"></a></li>
+                    <li><a href="#"><img src="img/social-icon/fb.svg" alt="" class="s-icon"></a></li>
+                    <li><a href="#"><img src="img/social-icon/linkedin.gif" alt="" class="s-icon"></a></li>
+                </ul>
+
+            </div>
+            <div class="quick-link">
+                <p class="qu-p">Quick Links</p>
+                <ul class="qu-li-ul">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="quick-link">
+                <p class="qu-p">Cakes</p>
+                <ul class="qu-li-ul">
+                    <li><a href="#">Blackforest</a></li>
+                    <li><a href="#">Bodhubon</a></li>
+                    <li><a href="#">Rongdhonu</a></li>
+                    <li><a href="#">Meghrong</a></li>
+                </ul>
+            </div>
+            <div class="contact quick-link">
+                <p class="qu-p con-p">Contact Us</p>
+                <p class="p p-2 add">72/Q, Sharda Nagar Kanpur India</p>
+                <p class="col-1 col ">+91 8956472566</p>
+                <p class="col ">berojgarfoodsrestraunt@gmail.com</p>
+            </div>
+        </footer>
+    <script src="index.js"></script>
+</body>
+</html>

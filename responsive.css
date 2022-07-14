@@ -1,0 +1,1473 @@
+/* MAXWIDTH -- 1345PX */
+@media only screen and (max-width: 1345px) and (min-width:1026px) {
+
+    /* NAVBAR AND HEADER */
+    .container {
+        width: 98.7vw;
+        min-height: 80vh;
+
+    }
+
+    .menu-container {
+        padding: 0.8rem;
+        max-width: 45vw;
+        /* overflow: hidden; */
+    }
+
+    nav {
+        height: 8vw;
+        margin-top: 1rem;
+
+    }
+
+    .logo {
+        width: 12rem;
+        margin-right: 2rem;
+    }
+
+    nav ul li {
+
+        margin-right: 1rem;
+        font-size: 1.2rem;
+
+    }
+
+
+
+
+    .desc {
+        margin: 4rem auto;
+        width: 40rem;
+        padding: 0 2.5rem;
+
+    }
+
+    .desc div:nth-child(1) {
+        height: 15rem;
+        width: 81%;
+
+    }
+
+
+    .h1 {
+
+        font-size: 2.7rem;
+
+
+
+    }
+
+    .btn {
+
+        width: 15rem;
+        height: 4rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+
+        margin: 1rem auto;
+
+    }
+
+    .cover {
+        width: 48%;
+    }
+
+    .book,
+    .book-2 {
+
+        position: absolute;
+        top: 10.5rem;
+        left: 4.5rem;
+        width: 6.5rem;
+    }
+
+    .btn-2 {
+
+        width: 8rem;
+        height: 3rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+        position: absolute;
+        bottom: 4rem;
+        left: 4rem;
+        left: 4rem;
+    }
+
+    .btn-2:hover {
+        transition: all 1s;
+        color: #fee266;
+        background-color: #a81617;
+    }
+
+    /* NAVBAR AND HEADER ENDS */
+
+    /* MAIN STARTS */
+    .heading-wrpaer {
+        margin: 4rem auto;
+        font-family: var(--mitr-font);
+        text-align: center;
+    }
+
+    .heading-wrpaer>h1 {
+        font-size: 2.5rem;
+    }
+
+    .heading-wrpaer>p {
+        font-size: 1.2rem;
+        width: 40rem;
+        margin: 0 auto;
+        line-height: 1.5rem;
+    }
+
+    /* FOOD CARD START */
+    .food-card-wraper {
+        width: 100vw;
+        min-height: 30vw;
+        margin: 3rem auto 10rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 2rem;
+    }
+
+    .food-card {
+        width: 18rem;
+        height: 22rem;
+        margin: 1.5rem 1rem;
+
+    }
+
+    .food-card>img {
+        margin: 2rem 0;
+        width: 5rem;
+    }
+
+    .food-card>h2 {
+        font-family: var(--mitr-font);
+        font-size: 1.4rem;
+
+    }
+
+    .a-active {
+        color: tomato;
+    }
+
+    .food-card p {
+        text-align: center;
+        width: 80%;
+        margin: 3rem auto;
+
+
+    }
+
+    /* FOOD CARD ENDS */
+
+    /* POPULER DISHESH START */
+    .pouler-dishesh-wraper {
+        width: 99vw;
+        padding: 4rem;
+        position: relative;
+    }
+
+    .pouler-dishesh-wraper h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .pouler-dishesh-wraper p {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        width: 28rem;
+    }
+
+    .btn-3 {
+        animation: none;
+        font-family: var(--mitr-font);
+        position: absolute;
+        top: 8rem;
+        right: 8rem;
+        background-color: tomato;
+    }
+
+    .pouler-dishesh-wraper>nav {
+        background-color: unset;
+        padding: 0;
+        height: 6.5vw;
+        width: 80vw;
+
+    }
+
+    .pouler-dishesh-wraper nav ul {
+        border-bottom: 1px solid gray;
+        padding: 1rem;
+        margin-bottom: 0;
+    }
+
+    .pouler-dishesh-wraper nav a {
+        padding-bottom: 1rem;
+        margin: 0;
+
+    }
+
+    #slider {
+        width: 100vw;
+    }
+
+    /* DISH CARD START */
+    .dish {
+        width: 27vw;
+        background-color: #fff;
+        height: 27rem;
+        margin: 1rem;
+
+
+    }
+
+    .img-wraper {
+        min-width: 9rem;
+        height: 9rem;
+
+    }
+
+    .dish-img {
+        width: 9rem;
+
+    }
+
+    .img-hover {
+        width: 8rem;
+    }
+
+    .rate {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1rem;
+        color: white;
+        position: absolute;
+        top: 6rem;
+        right: 4.5rem;
+        z-index: 5;
+    }
+
+    .dish h2 {
+        font-size: 1.4rem;
+    }
+
+    .dish p {
+        width: 90%;
+        font-family: var(--raleway-font);
+        margin: 1.5rem auto;
+    }
+
+    .dish a {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+    }
+
+    /* DISH CARD ENDS */
+
+    /* POPULER DISHESH ENDS */
+
+    /* BOOK TABLE SECTION STARTS */
+    .book-table {
+        margin: 5rem auto;
+        width: 98vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .img img {
+        width: 100%;
+        height: 75vh;
+    }
+
+    /* FORM STARTS */
+    .form-wraper {
+        margin: 0 0 0 2rem;
+        width: 42vw;
+    }
+
+    .form-wraper h1 {
+        font-size: 2.5rem;
+        margin: 0 0 1.5rem 0;
+
+    }
+
+    .form-wraper p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-bottom: 1.2rem;
+        width: 40vw;
+    }
+
+    .input-num,
+    .input-tel,
+    #massage {
+        display: block;
+        width: 22rem;
+        font-size: 1rem;
+        padding: 1rem 0 1rem 1rem;
+        font-family: var(--raleway-font);
+        border-radius: 1rem;
+        outline: none;
+        border: 1px solid rgba(128, 128, 128, 0.452);
+        margin: 0.5rem;
+    }
+
+    #date,
+    #meal {
+        width: 10rem;
+        margin: 0.5rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    #meal option {
+        font-size: 0.7rem;
+
+    }
+
+    #massage {
+        resize: none;
+        margin: 1rem 0.5rem;
+
+    }
+
+    .submit {
+        animation: none;
+        width: 22rem;
+        height: 3rem;
+        margin: 1rem 0.5rem;
+    }
+
+    /* FORM END */
+
+    /* BOOK TABLE SECTION END */
+
+    /* MAIN END */
+
+    /* FOOTER IMAGE COVER SECTION START */
+    .footer-image {
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        height: 30vh;
+    }
+
+    .footer-image>img {
+        min-width: 25vw;
+        height: 30vh;
+    }
+
+    .icon {
+        top: 15vh;
+        left: 43vw;
+    }
+
+    .icon>img {
+        min-width: 0.5rem;
+        width: 1rem;
+        margin-right: 0.4rem;
+    }
+
+    /* FOOTER IMAGE COVER SECTION ENDS */
+    /* FOOTER START */
+    .footer {
+        /* height: 70vh; */
+        padding: 3vh 1vw 0 1vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-logo {
+        width: 25vw;
+    }
+
+    .p-2 {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .footer-ul {
+        display: flex;
+    }
+
+    .footer-ul li {
+        list-style: none;
+        margin: 1rem 0.5rem;
+    }
+
+    .s-icon {
+        width: 2rem;
+        transition: all 0.2s;
+    }
+
+    .footer-ul li :hover {
+        transform: translateY(-0.5rem);
+    }
+
+    .quick-link {
+        width: 10vw;
+        margin-left: 5rem;
+    }
+
+    .qu-li-ul {
+        margin: 1.5rem 0.5rem;
+    }
+
+    .qu-li-ul li {
+        list-style: none;
+        margin-top: 1rem;
+    }
+
+    .qu-p {
+        font-family: var(--mitr-font);
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    .qu-li-ul li a {
+        font-family: var(--raleway-font);
+        color: gray;
+        font-size: 1.1rem;
+        text-decoration: none;
+    }
+
+    .qu-li-ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .contact {
+        width: 20vw;
+    }
+
+    .con-p {
+        margin-bottom: 1rem;
+    }
+
+    .col {
+
+        margin: 1.5rem 0;
+        font-weight: 500;
+    }
+
+    .col-1 {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    /* Slide Images class */
+    .hide {
+        display: none;
+    }
+
+}
+
+/* MAXWIDTH -- 1025PX */
+@media only screen and (max-width: 1025px) and (min-width:801px) {
+
+    /* NAVBAR AND HEADER */
+    .container {
+        width: 98.7vw;
+        min-height: 31rem;
+
+    }
+
+    .menu-container {
+        padding: 0.8rem;
+        max-width: 48vw;
+        /* overflow: hidden; */
+    }
+
+    nav {
+        height: 8vw;
+        margin-top: 1rem;
+        display: block;
+
+    }
+
+    .logo {
+        width: 12rem;
+        margin-right: 2rem;
+        display: block;
+        margin: auto;
+    }
+
+    nav ul {
+        justify-content: center;
+        background-color: #4c4c4c;
+
+    }
+
+    nav ul li {
+
+        margin: 0 0.7rem;
+        font-size: 1rem;
+
+    }
+
+    nav>ul>li>a {
+        color: #fff
+    }
+
+
+
+
+    .desc {
+        margin: 4rem auto;
+        width: 30rem;
+        padding: 0 2.5rem;
+
+    }
+
+    .desc div:nth-child(1) {
+        height: 12rem;
+        width: 85%;
+
+    }
+
+
+    .h1 {
+
+        font-size: 2rem;
+    }
+
+    .p {
+        font-size: 1.1rem;
+    }
+
+    .btn {
+
+        width: 10rem;
+        height: 2.2rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+
+        margin: 1rem auto;
+
+    }
+
+    .cover {
+        width: 48%;
+        height: 31rem;
+    }
+
+    .book,
+    .book-2 {
+
+        position: absolute;
+        top: 7rem;
+        left: 2rem;
+        width: 5rem;
+        font-size: 0.7rem;
+    }
+
+    .btn-2 {
+
+        width: 8rem;
+        height: 3rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+        position: absolute;
+        bottom: 4rem;
+        left: 4rem;
+        left: 4rem;
+    }
+
+    .btn-2:hover {
+        transition: all 1s;
+        color: #fee266;
+        background-color: #a81617;
+    }
+
+    /* NAVBAR AND HEADER ENDS */
+
+    /* MAIN STARTS */
+    .heading-wrpaer {
+        margin: 2rem auto;
+        font-family: var(--mitr-font);
+        text-align: center;
+    }
+
+    .heading-wrpaer>h1 {
+        font-size: 1.7rem;
+    }
+
+    .heading-wrpaer>p {
+        font-size: 1rem;
+        width: 30rem;
+        margin: 0 auto;
+        line-height: 1.5rem;
+    }
+
+    /* FOOD CARD START */
+    .food-card-wraper {
+        width: 100vw;
+        min-height: 30vw;
+        margin: 3rem auto 10rem auto;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 2rem;
+    }
+
+    .food-card {
+        width: 20rem;
+        height: 22rem;
+        margin: 1.5rem 3rem;
+
+    }
+    
+
+    .food-card>img {
+        margin: 2rem 0;
+        width: 6rem;
+    }
+
+    .food-card>h2 {
+        font-family: var(--mitr-font);
+        font-size: 1.2rem;
+
+    }
+
+
+    .food-card p {
+        text-align: center;
+        width: 70%;
+        margin: 3rem auto;
+
+
+    }
+
+    /* FOOD CARD ENDS */
+
+    /* POPULER DISHESH START */
+    .pouler-dishesh-wraper {
+        width: 99vw;
+        padding: 2rem;
+        position: relative;
+    }
+
+    .pouler-dishesh-wraper h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .pouler-dishesh-wraper p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        width: 28rem;
+    }
+
+    .btn-3 {
+        animation: none;
+        font-family: var(--mitr-font);
+        position: absolute;
+        top: 4rem;
+        right: 4rem;
+        font-size: 0.9rem;
+
+    }
+
+    .pouler-dishesh-wraper>nav {
+        background-color: unset;
+        padding: 0;
+        height: 6.5vw;
+        width: 80vw;
+
+    }
+
+    .pouler-dishesh-wraper nav ul {
+        border-bottom: 1px solid gray;
+        background-color: unset;
+        justify-content: unset;
+        padding: 1rem;
+        margin-bottom: 0;
+    }
+
+    .pouler-dishesh-wraper nav a {
+        padding-bottom: 1rem;
+        margin: 0;
+
+    }
+
+    #slider {
+        width: 100vw;
+    }
+
+    /* DISH CARD START */
+    .dish {
+        width: 28vw;
+        background-color: #fff;
+        height: 25rem;
+        margin: 1rem;
+
+
+    }
+
+    .img-wraper {
+        min-width: 8rem;
+        height: 8rem;
+
+    }
+
+    .dish-img {
+        width: 7.5rem;
+
+    }
+
+    .img-hover {
+        width: 6.5rem;
+    }
+
+    .rate {
+        width: 2rem;
+        height: 2rem;
+        font-size: 0.8rem;
+        color: white;
+        position: absolute;
+        top: 6rem;
+        right: 5.5rem;
+        z-index: 5;
+    }
+
+    .dish h2 {
+        font-size: 1.2rem;
+    }
+
+    .dish p {
+        width: 90%;
+        font-family: var(--raleway-font);
+        margin: 1.5rem auto;
+        font-size: 0.9rem;
+    }
+
+    .dish a {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    /* DISH CARD ENDS */
+
+    /* POPULER DISHESH ENDS */
+
+    /* BOOK TABLE SECTION STARTS */
+    .book-table {
+        margin: 5rem auto;
+        width: 98vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .img img {
+        width: 100%;
+        height: 30rem;
+    }
+
+    /* FORM STARTS */
+    .form-wraper {
+        margin: 0 0 0 2rem;
+        width: 42vw;
+    }
+
+    .form-wraper h1 {
+        font-size: 1.4rem;
+        margin: 0 0 0.5.rem 0;
+
+    }
+
+    .form-wraper p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        margin-bottom: 0.5rem;
+        width: 40vw;
+    }
+
+    .input-num,
+    .input-tel,
+    #massage {
+        display: block;
+        width: 20rem;
+        font-size: 1rem;
+        padding: 0.5rem 0 0.5rem 1rem;
+        border-radius: 1rem;
+        outline: none;
+    }
+
+    #date,
+    #meal {
+        width: 9rem;
+        margin: 0.5rem;
+        font-size: 1rem;
+        padding: 0.5;
+    }
+
+    #meal option {
+        font-size: 0.7rem;
+
+    }
+
+    #massage {
+        resize: none;
+        margin: 1rem 0.5rem;
+
+    }
+
+    .submit {
+        animation: none;
+        width: 20rem;
+        height: 2rem;
+        margin: 1rem 0.5rem;
+    }
+
+    /* FORM END */
+
+    /* BOOK TABLE SECTION END */
+
+    /* MAIN END */
+
+    /* FOOTER IMAGE COVER SECTION START */
+    .footer-image {
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        height: 30vh;
+    }
+
+    .footer-image>img {
+        min-width: 25vw;
+        height: 30vh;
+    }
+
+    .icon {
+        top: 15vh;
+        left: 43vw;
+        font-size: 0.8rem;
+    }
+
+    .icon>img {
+        min-width: 0.5rem;
+        width: 1rem;
+        margin-right: 0.4rem;
+    }
+
+    /* FOOTER IMAGE COVER SECTION ENDS */
+    /* FOOTER START */
+    .footer {
+        min-height: 22vh;
+        padding: 3vh 1vw 0 1vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-logo {
+        width: 25vw;
+    }
+
+    .logo-2 {
+        width: 8rem;
+    }
+
+    .p-2 {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    .footer-ul {
+        display: flex;
+    }
+
+    .footer-ul li {
+        list-style: none;
+        margin: 1rem 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .s-icon {
+        width: 1.4rem;
+        transition: all 0.2s;
+    }
+
+    .footer-ul li :hover {
+        transform: translateY(-0.5rem);
+    }
+
+    .quick-link {
+        width: 10vw;
+        margin-left: 5rem;
+    }
+
+    .qu-li-ul {
+        margin: 1.5rem 0.5rem;
+    }
+
+    .qu-li-ul li {
+        list-style: none;
+        margin-top: 1rem;
+    }
+
+    .qu-p {
+        font-family: var(--mitr-font);
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .qu-li-ul li a {
+        font-family: var(--raleway-font);
+        color: gray;
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+
+    .qu-li-ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .contact {
+        width: 20vw;
+    }
+
+    .con-p {
+        margin-bottom: 0.9rem;
+    }
+
+    .col {
+        margin: 1.5rem 0;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    .col-1 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    /* Slide Images class */
+    .hide {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 800px) and (min-width:480px) {
+
+    /* NAVBAR AND HEADER */
+    .container {
+        width: 100vw;
+        min-height: unset;
+        height: 23rem;
+
+    }
+
+    .menu-container {
+        padding: 0.8rem;
+        max-width: 60vw;
+        width: 50vw;
+        /* overflow: hidden; */
+    }
+
+    nav {
+        /* height: 8vw; */
+        margin-top: 1rem;
+        display: block;
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .logo {
+        width: 10rem;
+        margin-right: 2rem;
+        display: block;
+        margin: auto;
+    }
+
+    nav ul {
+        justify-content: center;
+        background-color: #4c4c4c;
+
+    }
+
+    nav ul li {
+
+        margin: 0 0.7rem;
+        font-size: 1rem;
+
+    }
+
+    nav>ul>li>a {
+        color: #fff;
+        font-size: 0.8rem;
+    }
+
+
+
+
+    .desc {
+        margin: 4rem auto;
+        width: 80%;
+        padding: 0 1rem;
+
+    }
+
+    .desc div:nth-child(1) {
+        height: 8rem;
+        width: 100%;
+        padding: 0 0.5rem;
+
+    }
+
+
+    .h1 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .p {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+
+        width: 8rem;
+        height: 2rem;
+        border-radius: 1rem;
+        font-size: 0.8rem;
+        margin: 1rem auto;
+
+    }
+
+    .cover {
+        width: 50%;
+        height: 23rem;
+        border: 0.4rem;
+    }
+
+    .book,
+    .book-2 {
+
+        position: absolute;
+        top: 7rem;
+        left: 2rem;
+        width: 5rem;
+        font-size: 0.7rem;
+    }
+
+    .btn-2 {
+
+        width: 8rem;
+        height: 3rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+        position: absolute;
+        bottom: 4rem;
+        left: 4rem;
+        left: 4rem;
+    }
+
+    .btn-2:hover {
+        transition: all 1s;
+        color: #fee266;
+        background-color: #a81617;
+    }
+
+    /* NAVBAR AND HEADER ENDS */
+
+    /* MAIN STARTS */
+    .heading-wrpaer {
+        margin: 2rem auto;
+        font-family: var(--mitr-font);
+        text-align: center;
+    }
+
+    .heading-wrpaer>h1 {
+        font-size: 1.2rem;
+    }
+
+    .heading-wrpaer>p {
+        font-size: 1rem;
+        width: 20rem;
+        margin: 0 auto;
+        line-height: 1.5rem;
+    }
+
+    /* FOOD CARD START */
+    .food-card-wraper {
+        width: 100vw;
+        min-height: 30vw;
+        margin: 3rem auto 10rem auto;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 2rem;
+    }
+
+    .food-card {
+        width: 43%;
+        height: 24rem;
+        margin: 1.5rem 1rem;
+
+    }
+
+    .food-card>img {
+        margin: 2rem 0;
+        width: 8rem;
+    }
+
+    .food-card>h2 {
+        font-family: var(--mitr-font);
+        font-size: 1.5rem;
+
+    }
+
+
+    .food-card p {
+        text-align: center;
+        width: 70%;
+        margin: 3rem auto;
+        font-size: 1rem;
+
+    }
+
+    /* FOOD CARD ENDS */
+
+    /* POPULER DISHESH START */
+    .pouler-dishesh-wraper {
+        width: 99vw;
+        padding: 4rem;
+        position: relative;
+    }
+
+    .pouler-dishesh-wraper h1 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .pouler-dishesh-wraper p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        width: 25rem;
+    }
+
+    .btn-3 {
+        animation: none;
+        font-family: var(--mitr-font);
+        position: absolute;
+        top: 4rem;
+        right: 4rem;
+        font-size: 0.9rem;
+
+    }
+
+    .pouler-dishesh-wraper>nav {
+        background-color: unset;
+        padding: 0;
+        height: 6.5vw;
+        width: 80vw;
+
+    }
+
+    .pouler-dishesh-wraper nav ul {
+        border-bottom: 1px solid gray;
+        background-color: unset;
+        justify-content: unset;
+        padding: 1rem;
+        margin-bottom: 0;
+    }
+
+    .pouler-dishesh-wraper nav a {
+        padding-bottom: 1rem;
+        margin: 0;
+
+    }
+
+    #slider {
+        width: 100vw;
+    }
+
+    /* DISH CARD START */
+    .dish {
+        width: 38%;
+        background-color: #fff;
+        height: 25rem;
+        margin: 1rem;
+
+
+    }
+
+    .img-wraper {
+        min-width: 8rem;
+        height: 8rem;
+
+    }
+
+    .dish-img {
+        width: 7.5rem;
+
+    }
+
+    .img-hover {
+        width: 6.5rem;
+    }
+
+    .rate {
+        width: 2rem;
+        height: 2rem;
+        font-size: 0.8rem;
+        color: white;
+        position: absolute;
+        top: 6rem;
+        right: 5.5rem;
+        z-index: 5;
+    }
+
+    .dish h2 {
+        font-size: 1.1rem;
+    }
+
+    .dish p {
+        width: 80%;
+        font-family: var(--raleway-font);
+        margin: 1.5rem auto;
+        font-size: 0.8rem;
+    }
+
+    .dish a {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    /* DISH CARD ENDS */
+
+    /* POPULER DISHESH ENDS */
+
+    /* BOOK TABLE SECTION STARTS */
+    .book-table {
+        margin: 5rem auto;
+        width: 98vw;
+        display: block
+    }
+
+    .img {
+        width: 70vw;
+        margin: auto;
+    }
+
+    .img img {
+        width: 100%;
+        height: 25rem;
+    }
+
+    /* FORM STARTS */
+    .form-wraper {
+        display: block;
+        margin: 1rem auto;
+        width: 80vw;
+
+    }
+
+    .form-wraper h1 {
+        font-size: 1.4rem;
+        margin: 0 0 0.5.rem 0;
+        text-align: center;
+
+    }
+
+    .form-wraper p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        margin: 0.5rem auto;
+        width: 50vw;
+        text-align: left;
+    }
+
+    .form-wraper form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .input-num,
+    .input-tel,
+    #massage {
+        display: inline-block;
+        width: 40%;
+        font-size: 1rem;
+        padding: 0.5rem 0 0.5rem 1rem;
+        border-radius: 1rem;
+        outline: none;
+    }
+
+    #date,
+    #meal {
+        width: 30%;
+        margin: 0.5rem;
+        font-size: 1rem;
+        padding: 0.5;
+        display: inline-block;
+    }
+
+    #massage {
+        width: 80%;
+    }
+
+    #meal option {
+        font-size: 0.7rem;
+
+    }
+
+    #massage {
+        resize: none;
+        margin: 1rem 0.5rem;
+
+    }
+
+    .submit {
+        animation: none;
+        width: 60%;
+        height: 2rem;
+        margin: 1rem 2rem;
+    }
+
+    /* FORM END */
+
+    /* BOOK TABLE SECTION END */
+
+    /* MAIN END */
+
+    /* FOOTER IMAGE COVER SECTION START */
+    .footer-image {
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        height: 30vh;
+    }
+
+    .footer-image>img {
+        min-width: 25vw;
+        height: 30vh;
+    }
+
+    .icon {
+        top: 15vh;
+        left: 43vw;
+        font-size: 0.8rem;
+    }
+
+    .icon>img {
+        min-width: 0.5rem;
+        width: 1rem;
+        margin-right: 0.4rem;
+    }
+
+    /* FOOTER IMAGE COVER SECTION ENDS */
+    /* FOOTER START */
+    .footer {
+        min-height: 45vh;
+        padding: 3vh 1vw 0 1vw;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+
+    .footer-logo {
+        width: 30vw;
+    }
+
+    .logo-2 {
+        width: 8rem;
+    }
+
+    .p-2 {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    .footer-ul {
+        display: flex;
+    }
+
+    .footer-ul li {
+        list-style: none;
+        margin: 1rem 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .s-icon {
+        width: 1.4rem;
+        transition: all 0.2s;
+    }
+
+    .footer-ul li :hover {
+        transform: translateY(-0.5rem);
+    }
+
+    .quick-link {
+        width: 10vw;
+        margin-left: 5rem;
+    }
+
+    .qu-li-ul {
+        margin: 1.5rem 0.5rem;
+    }
+
+    .qu-li-ul li {
+        list-style: none;
+        margin-top: 1rem;
+    }
+
+    .qu-p {
+        font-family: var(--mitr-font);
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .qu-li-ul li a {
+        font-family: var(--raleway-font);
+        color: gray;
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+
+    .qu-li-ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .contact {
+        width: 20vw;
+        margin: 0;
+    }
+
+    .con-p {
+        margin-bottom: 0.9rem;
+    }
+
+    .col {
+        margin: 1.5rem 0;
+        font-weight: 500;
+        font-size: 0.9rem;
+    }
+
+    .col-1 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    /* Slide Images class */
+    .hide {
+        display: none;
+    }
+
+}
