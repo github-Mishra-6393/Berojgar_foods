@@ -1,4 +1,5 @@
-
+// on size change
+$(window).resize(function(){location.reload()});
 //  FOOD CARDS
 
 let foodCards = document.getElementsByClassName('food-card');
